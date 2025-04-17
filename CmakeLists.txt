@@ -5,6 +5,7 @@ project(SmallVKEngine)
 add_executable(SmallVKEngine)
 target_sources(SmallVKEngine PRIVATE
   src/main.cpp
+  src/lve_window.cpp
 )
 
 find_package(Vulkan REQUIRED)
