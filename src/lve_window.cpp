@@ -1,7 +1,7 @@
 #include "lve_window.hpp"
 
 namespace lve{
-  LveWindow::LveWindow(const int& h, const int& w, const std::string name) : WIDTH(w), HEIGHT(h), windowName(name) {
+  LveWindow::LveWindow(const int& w, const int& h, const std::string name) : WIDTH(w), HEIGHT(h), windowName(name) {
     initWindow();
   }
 

@@ -12,7 +12,7 @@ private:
   const int HEIGHT;
   std::string windowName;
 public:
-  LveWindow(const int& h, const int& w, const std::string name);
+  LveWindow(const int& w, const int& h, const std::string name);
   ~LveWindow();
   LveWindow(const LveWindow&) = delete;
   LveWindow& operator=(const LveWindow&) = delete;
