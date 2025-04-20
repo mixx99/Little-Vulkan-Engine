@@ -1,5 +1,6 @@
 #pragma once
 
+#include <vulkan/vulkan.h>
 #define GLEW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 #include <string>
@@ -16,6 +17,8 @@ public:
   ~LveWindow();
   LveWindow(const LveWindow&) = delete;
   LveWindow& operator=(const LveWindow&) = delete;
+
+  void createWindowSurface(VkInstance instance, VkSurfaceKHR* surface);
 
   bool shouldClose() const;
 private:
