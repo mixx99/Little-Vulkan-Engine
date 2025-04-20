@@ -8,6 +8,7 @@ target_sources(SmallVKEngine PRIVATE
   src/lve_window.cpp
   src/lve_pipeline.cpp
   src/first_app.cpp
+  src/lve_device.cpp
 )
 
 find_package(Vulkan REQUIRED)
